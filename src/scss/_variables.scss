@@ -1,0 +1,26 @@
+:root {
+    --black-shadow: #000000;
+    --background-color: #121212;
+    --lightest-black: #666666;
+    --light-black: #393939;
+    --dark-slate: #9e9e9e;
+    --slate: #bebebe;
+    --light-slate: #dedede;
+    --lightest-slate: #ffffff;
+    --theme-color: #30ff57;
+
+
+    --tsm: 13px;
+    --tsm1: 14px;
+    --tsm2: 15px;
+    --tbase: 16px;
+    --tlarge: 18px;
+    --tlarge2: 22px;
+    --txlarge: 25px;
+    --tx2large: 32px;
+    --tgiant: clamp(40px, 8vw, 80px);
+    @media screen and (max-width: 480px) {
+      --tx2large: 25px;
+      // --tgiant: 40px;
+    }
+  }
