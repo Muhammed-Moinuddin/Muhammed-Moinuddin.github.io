@@ -39,7 +39,7 @@ function Hero() {
           delay: 1.05,
         }}
       >
-        I'm building my coding toolkit.
+        Learning, building, and growing..
       </motion.h3>
       <motion.p
         className="hero-text"
@@ -51,7 +51,7 @@ function Hero() {
           delay: 1.35,
         }}
       >
-        I&apos;m a family-oriented web developer passionate about creating stunning websites and apps that make a real-world impact. With 2 years of experience in Web Development, I'm expanding my expertise in MERN and React Native to create even more innovative applications. Let's connect and grow together.&nbsp;
+        I&apos;m a dedicated web developer with a strong passion for creating visually appealing and impactful websites and applications. With over two years of experience in the field of web development, I am constantly upgrading my skills in MERN Stack and React Native to create even more innovative and dynamic applications. Please feel free to contact me to discuss your web development needs.&nbsp;
       </motion.p>
       <motion.div
         className="hero-button"
@@ -63,7 +63,7 @@ function Hero() {
           delay: 1.65,
         }}
       >
-        <Link href="../../CV.pdf" className="btn" download target="_blank">Download Resume</Link>
+        <Link href="../../Resume.pdf" className="btn" download target="_blank">Download Resume</Link>
       </motion.div>
     </div>
   );

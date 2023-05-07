@@ -1,5 +1,6 @@
 main {
     margin: 0 15rem;
+    transition: 0.3s ease-in-out;
     @media screen and (max-width: 1020px) {
       margin: 0 8rem;
     }
@@ -9,6 +10,12 @@ main {
     @media screen and (max-width: 480px) {
       margin: 0 1.5rem;
     }
+  }
+
+  .blur{
+    filter: blur(10px);
+    pointer-events: none;
+    user-select: none;
   }
   
   body {
