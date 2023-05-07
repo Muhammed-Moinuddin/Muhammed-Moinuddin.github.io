@@ -28,7 +28,7 @@ function About() {
       <div className="about-grid">
         <div className="about-grid-info">
           <p className="about-grid-info-text">
-          Building stunning websites from scratch is not just a job, it's my passion as a Web developer. I thrive on the challenge of solving complex problems and turning innovative ideas into practical solutions that drive real-world impact.
+          Building stunning websites from scratch is not just a job, it&apos;s my passion as a Web developer. I thrive on the challenge of solving complex problems and turning innovative ideas into practical solutions that drive real-world impact.
           </p>
           <p className="about-grid-info-text">
           I am currently pursuing a degree in Computer Science from the University of Karachi while also holding the position of Marketing Executive at {" "}
