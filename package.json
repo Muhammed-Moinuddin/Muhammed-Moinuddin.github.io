@@ -1,8 +1,11 @@
 {
   "name": "muhammed-moinuddin.github.io",
   "version": "0.1.0",
+  "homepage": "https://muhammed-moinuddin.github.io",
   "private": true,
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -23,5 +26,8 @@
     "sass": "^1.62.1",
     "swiper": "^9.2.4",
     "typescript": "5.0.4"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
