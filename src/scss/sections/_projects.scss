@@ -1,5 +1,5 @@
 .projects {
-    margin: 15rem 0;
+    margin: 5rem 0;
     .title {
       font-family: var(--raleway);
       color: var(--lightest-slate);
@@ -202,17 +202,18 @@
       }
     }
     @media screen and (max-width: 600px) {
+      margin: 20rem 0 10rem 0;
       &-container {
         .project {
           &-image {
             &-container {
               width: 350px;
-              height: 400px;
+              height: 350px;
             }
           }
           .project-info {
             width: 350px;
-            height: 400px;
+            height: 350px;
           }
         }
       }
